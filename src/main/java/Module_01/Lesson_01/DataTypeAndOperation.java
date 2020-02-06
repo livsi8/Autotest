@@ -57,7 +57,9 @@ public class DataTypeAndOperation {
         //произвести (включая %) арифметическии операции между разными типами (long -> int, byte -> int, ...)
         double div1 = div % module;
         float sum3 = module3 + div;
+        System.out.println(sum3);
 
     }
+
 }
 
