@@ -1,6 +1,6 @@
 package Module_01.Lesson_02;
 
-public class Main {
+public class lesson {
     static int num1 = 3;
     static int num2 = 11;
 
@@ -23,6 +23,9 @@ public class Main {
    //         System.out.println("Poka");
 
         // использовать else if() что бы они не выполнялись.
+
+
+
 
 
 
