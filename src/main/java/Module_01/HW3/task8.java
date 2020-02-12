@@ -1,4 +1,4 @@
-package Module_01.Lesson_04;
+package Module_01.HW3;
 
 import java.util.Scanner;
 public class task8 {
