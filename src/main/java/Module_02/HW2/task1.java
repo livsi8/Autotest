@@ -6,18 +6,25 @@ public class task1 {
     public static void main(String[] args) {
 
         String string = "Determine how often a particular character occurs in a string";
-        String[] array = string.split("");
-        int[] array2 = new int[array.length];
-        for (int i = 0; i < array.length; i++) {
+        char[] array = string.toCharArray();
+        char[] array2 = new char[array.length];
+        String chars;
+        int counter = 0;
+        for(char char1 : array){
 
+            for(char char2 : array){
 
-            array2[i] = array[i].indexOf("e");
-
+                if(char1 == char2){
+                        ++counter;
+                    System.out.println(char1);
+                    }
+                }
+            }
 
         }
-        System.out.println(Arrays.toString(array2));
+       // System.out.println(Arrays.toString(array));
 
     }
 
 
-}
+
