@@ -5,8 +5,24 @@ public class MainClass {
 
         //объекты staff
 
-
         Staff shopAssistant1 = new Staff("Alex", "Продавец-консультант", 30000, 25, 22, "Отдел бытовой техники");
+        Staff shopAssistant2 = new Staff("Igor", "Продавец-консультант", 45000, 29, 33, "Отдел компьютерной техники");
+        Staff shopAssistant3 = new Staff("Valentina", "Продавец-консультант", 20000, 19, 3, "Отдел мобильных устройств");
+        Staff security = new Staff("Andrew", "Охранник", 35000, 44, 45, "Торговый зал");
+        Staff cashierSeller = new Staff("Petr", "Продавец-кассир", 40000, 33, 23, "Кассовая зона");
+
+        //объекты product
+        Product phoneIphoneX = new Product("Iphone X", 22000, true, "Высокая производительность", "Отдел мобильных устройств");
+        Product computerNotebook = new Product("Acer", 50000, true, "Высокая производительность", "Отдел компьютерной техники");
+        Product stove = new Product("Greta", 10000, false, "Газовая", "Отдел бытовой техники");
+
+        //объекты Buyer
+
+        Buyer human = new Buyer(true, "Eugen");
+        Buyer human2 = new Buyer(false, "Andrew");
+
+
+
 
 
       //  System.out.println("Должность:" + shopAssistant1.position);
