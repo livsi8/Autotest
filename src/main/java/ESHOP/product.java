@@ -1,11 +1,11 @@
 package ESHOP;
 
 public class product {
-    String productName;
-    double price;
-    String available;
-    String characteristic;
-    String department;
+    private String productName;
+    private double price;
+    private String available;
+    private String characteristic;
+    private String department;
 
 
 
