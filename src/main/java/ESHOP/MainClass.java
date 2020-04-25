@@ -8,6 +8,7 @@ public class MainClass {
 
         Staff shopAssistant1 = new Staff("Alex", "Продавец-консультант", 30000, 25, 22, "Отдел бытовой техники");
 
+
       //  System.out.println("Должность:" + shopAssistant1.position);
       //  System.out.println("Имя:" + shopAssistant1.name);
       //  System.out.println("Возраст:" + shopAssistant1.age);
