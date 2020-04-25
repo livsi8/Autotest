@@ -2,7 +2,10 @@ package ESHOP;
 
 public class MainClass {
     public static void main(String[] args) {
+
         //объекты staff
+
+
         Staff shopAssistant = new Staff();
         shopAssistant.name = "Alex";
         shopAssistant.age = 25;
@@ -38,6 +41,15 @@ public class MainClass {
         // System.out.println("Возраст:" + Security.age);
         // System.out.println("Опыт работы:" + Security.experienceMonth);
         // System.out.println("Зарплата:" + Security.salary);
+
+
+        //объекты product
+        product phoneIphoneX = new product();
+        phoneIphoneX.productName = "Iphone X";
+        phoneIphoneX.price = 40000;
+        phoneIphoneX.available = "Есть в наличии";
+        phoneIphoneX.characteristic = "Производительность высокая";
+
 
     }
 

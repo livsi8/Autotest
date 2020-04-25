@@ -5,6 +5,8 @@ public class product {
     double price;
     String available;
     String characteristic;
+    String department;
+
 
 
 

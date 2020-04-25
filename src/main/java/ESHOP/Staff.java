@@ -6,5 +6,7 @@ public class Staff {
     double salary;
     int age;
     int  experienceMonth;
+    String department;
+
 
 }
