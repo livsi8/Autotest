@@ -1,12 +1,11 @@
 package ESHOP;
 
 public class Buyer {
-    private boolean mSaleCard;
-    private String mCustomerCard;
+    private String money;
 
-    public Buyer (boolean saleCard, String customerCard){
-        mSaleCard = saleCard;
-        mCustomerCard = customerCard;
+    public void hiBuyer(){
+        System.out.println("Привет. Хочу купить товар");
     }
+
 
 }

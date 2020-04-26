@@ -1,4 +1,7 @@
 package ESHOP;
+import org.omg.PortableServer.POA;
+
+import java.util.Scanner;
 
 public class MainClass {
     public static void main(String[] args) {
@@ -12,14 +15,23 @@ public class MainClass {
         Staff cashierSeller = new Staff("Petr", "Продавец-кассир", 40000, 33, 23, "Кассовая зона");
 
         //объекты product
-        Product phoneIphoneX = new Product("Iphone X", 22000, true, "Высокая производительность", "Отдел мобильных устройств");
-        Product computerNotebook = new Product("Acer", 50000, true, "Высокая производительность", "Отдел компьютерной техники");
-        Product stove = new Product("Greta", 10000, false, "Газовая", "Отдел бытовой техники");
+        Product phoneIphoneX = new Product("Iphone X", 22000, true, "Высокая производительность", "Отдел мобильных устройств", 2);
+        Product computerNotebook = new Product("Acer", 50000, true, "Высокая производительность", "Отдел компьютерной техники",1);
+        Product stove = new Product("Greta", 10000, false, "Газовая", "Отдел бытовой техники",0);
 
         //объекты Buyer
+        Buyer buyer1 = new Buyer();
 
-        Buyer human = new Buyer(true, "Eugen");
-        Buyer human2 = new Buyer(false, "Andrew");
+        buyer1.hiBuyer();
+        security.chooseDepartment();
+        Scanner in = new Scanner(System.in);
+        String enterDepartment = in.nextLine();
+        security.chooseBuyer(enterDepartment);
+
+        String choosePr = in.nextLine();
+        
+
+
 
 
 
