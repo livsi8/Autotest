@@ -1,5 +1,4 @@
 package ESHOP;
-import org.omg.PortableServer.POA;
 
 import java.util.Scanner;
 
