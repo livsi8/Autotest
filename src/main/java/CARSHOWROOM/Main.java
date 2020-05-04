@@ -1,7 +1,18 @@
 package CARSHOWROOM;
 
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println(carShowroom.getCar("model","u"));
+        List<Car> filtredCar = carShowroom.getCar("u", "model");
+        for (Car car : filtredCar) {
+            System.out.println(car.getInfo());
+
+        }
+
+
+
+
+
     }
 }

@@ -16,16 +16,16 @@ public class carShowroom {
             new Car("Honda", "sedan", 1999, 4, 2.0, 200, 12, 500000)
     );
 
-    public static List<Car> getCar(String model, String textSearch) {
+    public static List<Car> getCar(String textSearch, String model) {
+
         List<Car> carSearch = new ArrayList<>();
-        for (int i = 0; i < car.size(); i++) {
-            if (car.get(i).model.contains(textSearch)) {
-                carSearch.add(car.get(i));
+        for (Car value : car) {
+            if (value.model.contains(textSearch)) {
+                carSearch.add(value);
             }
+
+
         }
         return carSearch;
     }
-
-
 }
-

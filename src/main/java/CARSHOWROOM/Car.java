@@ -1,30 +1,31 @@
 package CARSHOWROOM;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 public class Car {
-public String model;
-private String type;
-private int year;
-private  int passenger;
-private double dviglo;
-private int loshadka;
-private int rasshod;
-private double price;
+    public String model;
+    public String type;
+    public int year;
+    public int passenger;
+    public double dviglo;
+    public int loshadka;
+    public int rasshod;
+    public double price;
 
-public Car (String model, String type, int year, int passenger, double dviglo, int loshadka, int rasshod, double price){
-this.model = model;
-this.type = type;
-this.year = year;
-this.passenger = passenger;
-this.dviglo = dviglo;
-this.loshadka = loshadka;
-this.rasshod = rasshod;
-this.price = price;
+    public Car(String model, String type, int year, int passenger, double dviglo, int loshadka, int rasshod, double price) {
+        this.model = model;
+        this.type = type;
+        this.year = year;
+        this.passenger = passenger;
+        this.dviglo = dviglo;
+        this.loshadka = loshadka;
+        this.rasshod = rasshod;
+        this.price = price;
 
-}
+    }
+        public String getInfo(){
+
+        return "Model: " + model + ", Type: " + type;
+        }
 
 
 }
