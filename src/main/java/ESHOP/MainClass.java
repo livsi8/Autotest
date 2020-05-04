@@ -26,8 +26,8 @@ public class MainClass {
         Scanner in = new Scanner(System.in);
         String enterDepartment = in.nextLine();
         security.chooseBuyer(enterDepartment);
-
         String choosePr = in.nextLine();
+
         
 
 

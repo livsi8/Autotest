@@ -45,7 +45,12 @@ public class Staff {
             default:
                 System.out.println("Вариант отсутствует");
         }
+
+
+
+
     }
+
 
 }
 
